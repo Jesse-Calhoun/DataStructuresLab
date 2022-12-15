@@ -50,14 +50,26 @@ def add_desired_produce():
 # c) Email Address
 # d) Phone Number
 ##
-user_profile = {
+
+# user_profile = {    <-------this variable holding the dictionary will  need to be moved into the main_implentation.py folder
+# 'first_name': 'Jesse',
+# 'last_name': 'James',
+# 'email_address': 'jesse1234james@aol.com',
+# 'phone_number': '1-(234)-567-8910'
+#}
+def print_user_profile():
+    user_profile = {
 'first_name': 'Jesse',
 'last_name': 'James',
 'email_address': 'jesse1234james@aol.com',
 'phone_number': '1-(234)-567-8910'
 }
+    for key, value in user_profile.items():
+        print()
+        print(f"In use-profile the key {key} holds the value {value}")
+        print()
 
-
+#print_user_profile()
 # Task 2
 # Use a list to store the dictionary of your immediate family members, with each index of the list storing its own dictionary. Dictionary should contain the following keys:
 # a) First name
