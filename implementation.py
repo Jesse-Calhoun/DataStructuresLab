@@ -10,14 +10,7 @@
 # Determine the month in the data structure in which National Pi Day exists and print that month to the console. 
 # a) HINT: The number for Pi, when converted to an Integer, is related to the stored location of the correct month.
 # TUPLE is the best data structure
-#months_of_year = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December')
-#pi = 3.14
-#print(int(pi))
-#print(pi)
-#print(len(months_of_year))
-#print(len(months_of_year[int(pi)]))
-#print(months_of_year[pi])
-#print(months_of_year[int(pi)])
+
 def find_pi_day():
     months_of_year = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December')
     pi = 3.14
@@ -31,14 +24,9 @@ def find_pi_day():
 # b) Iterate over the collection and print each one to the console. 
 #SET will be the data structure used in this instance
 produce = {'Apples', 'Bananas', 'Cucumbers','Stawberries', 'Watermelons'}
-#print(produce)
-#produce.update(['Tomatoes', 'Oranges', 'Blueberries', 'Peaches'])
-#print(produce)
+
 def add_desired_produce():
-    #produce = {'Apples', 'Bananas', 'Cucumbers','Stawberries', 'Watermelons'}
-#print(produce)
     produce.update(['Tomatoes', 'Oranges', 'Blueberries', 'Peaches'])
-#print(produce)
     for value in produce:
      print(value)
 #add_desired_produce()
@@ -49,10 +37,9 @@ def add_desired_produce():
 # b) Last Name
 # c) Email Address
 # d) Phone Number
-##
-
-# user_profile = {    <-------this variable holding the dictionary will  need to be moved into the main_implentation.py folder
-# 'first_name': 'Jesse',
+#DICTIONARY is the data structure used
+# user_profile = {    <-------this variable holding the dictionary could've stayed here and been called 
+# 'first_name': 'Jesse',        using the implentation.print(implementation.user_profile) in the main_implementation.py file
 # 'last_name': 'James',
 # 'email_address': 'jesse1234james@aol.com',
 # 'phone_number': '1-(234)-567-8910'
@@ -82,7 +69,6 @@ emilyann = {'first_name': 'EmilyAnn', 'last_name': 'Calhoun', 'relation': 'Siste
 lynda = {'first_name': 'Lynda', 'last_name': 'Alder', 'relation': 'Mother'}
 roman = {'first_name': 'Roman', 'last_name': 'Alder', 'relation': 'Step-Father'}
 my_family = [kinsley, emilyann, lynda, roman]
-# print(my_family[1]['first_name'], my_family[3]['first_name'])
 #Once you have stored the List of Dictionary items,
 #write a function/method that will iterate over the List and print off
 #the First Name and Relation of each person in the List.
@@ -91,8 +77,6 @@ def print_name_and_relation(list):
         print()
         print(x['first_name'], x['relation'])
         print()
-        # name_relation = f'{x['first_name']}+ + {x['relation']}'
-        # print(name_relation)
     
         
 #print_name_and_relation(my_family)
